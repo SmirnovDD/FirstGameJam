@@ -29,11 +29,13 @@ public class CinematicHandler : MonoBehaviour
     }
     public void SetNextDialogueLine()
     {
-        _subtitlesTxt.text = _texts[_dialogueIndex];
-        _dialogueIndex++;
-        if (_dialogueIndex + 1 > _texts.Count)
+        if (_dialogueIndex == _texts.Count)
         {
             DisableSubtitles();
+            return;
         }
+
+        _subtitlesTxt.text = _texts[_dialogueIndex];
+        _dialogueIndex++;
     }
 }

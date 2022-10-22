@@ -1684,14 +1684,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _subtitlesObject: {fileID: 1589266235}
   _subtitlesTxt: {fileID: 1287784241}
-  _dialogueIndex: 6
+  _dialogueIndex: 0
   _texts:
   - 'Kto to? Kto to? Ah... to Ty... dobrze. '
   - "Czyli w ko\u0144cu przyszed\u0142e\u015B wys\u0142ucha\u0107 opowie\u015Bci."
   - "Czas najwy\u017Cszy! Nie zosta\u0142o mi ju\u017C zbyt wiele czasu."
   - Ekhm! Ekhm!
   - "Zatem... przejd\u017Amy do konkret\xF3w."
-  - 
+  - "Przenie\u015Bmy si\u0119 do roku 1002..."
 --- !u!1001 &716019374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3683,7 +3683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "Przenie\u015Bmy si\u0119 do roku 1002..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4185,12 +4185,12 @@ GameObject:
   - component: {fileID: 1589266238}
   - component: {fileID: 1589266237}
   m_Layer: 5
-  m_Name: TextBackground
+  m_Name: SubtitlesBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1589266236
 RectTransform:
   m_ObjectHideFlags: 0
