@@ -1543,6 +1543,7 @@ GameObject:
   - component: {fileID: 662749647}
   - component: {fileID: 662749650}
   - component: {fileID: 662749651}
+  - component: {fileID: 662749652}
   m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1669,6 +1670,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &662749652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662749646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02543e99b3e20d24eb6c87d4718b6bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _subtitlesObject: {fileID: 1589266235}
+  _subtitlesTxt: {fileID: 1287784241}
+  _dialogueIndex: 6
+  _texts:
+  - 'Kto to? Kto to? Ah... to Ty... dobrze. '
+  - "Czyli w ko\u0144cu przyszed\u0142e\u015B wys\u0142ucha\u0107 opowie\u015Bci."
+  - "Czas najwy\u017Cszy! Nie zosta\u0142o mi ju\u017C zbyt wiele czasu."
+  - Ekhm! Ekhm!
+  - "Zatem... przejd\u017Amy do konkret\xF3w."
+  - 
 --- !u!1001 &716019374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1971,6 +1994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804385312}
   - component: {fileID: 804385311}
+  - component: {fileID: 804385313}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -2012,6 +2036,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &804385313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804385310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!1 &833258577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,7 +3637,7 @@ GameObject:
   - component: {fileID: 1287784242}
   - component: {fileID: 1287784241}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SubtitlesText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3644,8 +3683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Jezu kochany ta gra to b\u0119dzie takie g\xF3wno, \u017Ce ja nawet nie
-    mam pyta\u0144 XD\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
