@@ -12,6 +12,8 @@ namespace StarterAssets
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
+		public bool Attack;
+		public bool ChangeAmmunition;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -43,6 +45,16 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnAttack(InputValue value)
+		{
+			AttackInput(value.isPressed);
+		}
+
+		public void OnChangeAmmunition(InputValue value)
+		{
+			AmmunitionChangeInput(value.isPressed);
+		}
 #endif
 
 
@@ -65,15 +77,15 @@ namespace StarterAssets
 		{
 			sprint = newSprintState;
 		}
-		
-		private void OnApplicationFocus(bool hasFocus)
+
+		public void AttackInput(bool newShootState)
 		{
-			SetCursorState(cursorLocked);
+			Attack = newShootState;
 		}
 
-		private void SetCursorState(bool newState)
+		public void AmmunitionChangeInput(bool pressed)
 		{
-			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
+			ChangeAmmunition = pressed;
 		}
 	}
 	

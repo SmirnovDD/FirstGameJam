@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using _Scripts.General;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -71,7 +72,8 @@ namespace StarterAssets
 		private CharacterController _controller;
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
-
+		private AnimationsController _animationsController;
+		
 		private const float _threshold = 0.01f;
 
 		private bool IsCurrentDeviceMouse
@@ -93,6 +95,8 @@ namespace StarterAssets
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
 			}
+
+			_animationsController = GetComponent<AnimationsController>();
 		}
 
 		private void Start()
@@ -192,6 +196,11 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
+				_animationsController.PlayRunAnimation();
+			}
+			else
+			{
+				_animationsController.PlayIdleAnimation();
 			}
 
 			// move the player

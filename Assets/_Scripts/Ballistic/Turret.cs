@@ -4,8 +4,10 @@
 //   license: you are granted a perpetual, irrevocable license to copy, modify,
 //   publish, and distribute this file as you see fit.
 
+using System;
 using UnityEngine;
 using System.Collections.Generic;
+using _Scripts.General;
 using ShipShooting.Math;
 
 public class Turret : MonoBehaviour {
@@ -14,7 +16,7 @@ public class Turret : MonoBehaviour {
     [SerializeField] BallisticMotion projPrefab;
     [SerializeField] Transform muzzle;
     // Private fields
-    private List<CharacterController> _targets = new ();
+    private List<CharacterController> _targets = new List<CharacterController>();
     CharacterController curTarget;
     State state = State.Searching;
     float cooldownTime;
@@ -22,9 +24,10 @@ public class Turret : MonoBehaviour {
     bool paused;
     [SerializeField] private float _velocity = 2000f;
     [SerializeField] private Parameters.AimMode _aimMode;
-    private float _rateOfFire = 3f;
+    [SerializeField] private float _rateOfFire = 3f;
     private float _arcPeak = 3f;
-
+    private AnimationsController _animationsController; 
+    
     // Helper enums
     enum State {
         Searching,
@@ -32,7 +35,12 @@ public class Turret : MonoBehaviour {
         Firing,
         Waiting
     };
-    
+
+    private void Awake()
+    {
+        _animationsController = GetComponent<AnimationsController>();
+    }
+
     // Methods
     void Update() {
         float projSpeed = _velocity;
@@ -46,15 +54,14 @@ public class Turret : MonoBehaviour {
                 if (curTarget != null)
                     state = State.Aiming;
             }
-
         }
 
         if (state == State.Aiming) {
 
-            Vector3 targetPos = curTarget.transform.position + Vector3.up;
+            Vector3 targetPos = curTarget.transform.position + Vector3.up * 1.2f;
             Vector3 diff = targetPos - projPos;
             Vector3 diffGround = new Vector3(diff.x, 0f, diff.z);
-
+            
             if (_aimMode == Parameters.AimMode.Normal) 
             {
                 Vector3 targetDirLow;
@@ -78,7 +85,7 @@ public class Turret : MonoBehaviour {
             
                 ammo.transform.forward = targetDirLow.normalized;
                 ammo.AddImpulse(targetDirLow);
-
+                _animationsController.PlayShootAnimation();
                 state = State.Firing;
             }
             else if (_aimMode == Parameters.AimMode.Lateral) {
@@ -91,6 +98,7 @@ public class Turret : MonoBehaviour {
                     
                     proj.Initialize(projPos, gravity);
                     proj.AddImpulse(fireVel);
+                    _animationsController.PlayShootAnimation();
 
                     state = State.Firing;
                 }
