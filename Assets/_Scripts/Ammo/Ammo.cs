@@ -17,7 +17,8 @@ namespace _Scripts.Ammo
 
             transform.parent = other.transform;
             Destroy(this);
-            Destroy(_ballisticMotion);
+            if (_ballisticMotion)
+                Destroy(_ballisticMotion);
         }
 
         private float GetDamageMultiplier(Collider other)

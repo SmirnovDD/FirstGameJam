@@ -24,7 +24,8 @@ namespace _Scripts.AI
         public void Damage(float damage)
         {
             _health.Current -= damage;
-            _animationsController.PlayHitAnimation();
+            if (_animationsController)
+                _animationsController.PlayHitAnimation();
         }
     }
 }

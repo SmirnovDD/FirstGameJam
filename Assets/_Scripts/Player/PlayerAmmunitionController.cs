@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using _Scripts.General;
+using StarterAssets;
 using UnityEngine;
 
 namespace _Scripts.Player
@@ -10,19 +11,26 @@ namespace _Scripts.Player
         public PlayerAmmunition ChosenAmmunition { get; private set; }
 
         private WeaponSwitcher _weaponSwitcher;
+        private StarterAssetsInputs _inputs;
+        private float _cooldownOnChange = .5f;
+        private float _timer;
         
         private void Awake()
         {
             ChosenAmmunition = _ammunition[1];
             _weaponSwitcher = GetComponent<WeaponSwitcher>();
+            _inputs = GetComponent<StarterAssetsInputs>();
         }
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (_inputs.ChangeAmmunition && _timer <= 0)
             {
                 ChangeAmmunition();
+                _timer = _cooldownOnChange;
             }
+
+            _timer -= Time.deltaTime;
         }
 
         private void ChangeAmmunition()
