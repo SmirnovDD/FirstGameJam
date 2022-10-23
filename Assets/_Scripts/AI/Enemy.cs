@@ -32,7 +32,7 @@ namespace _Scripts.AI
                 _animationsController.PlayHitAnimation();
         }
 
-        private void OnDestroy()
+        private void OnDisable()
         {
             if (_spawnFinalBoss)
                 SpawnFinalBoss?.Invoke(transform);

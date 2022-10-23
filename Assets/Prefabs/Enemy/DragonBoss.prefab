@@ -547,6 +547,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initial: 1000
+  _finalBoss: 1
+  _particles: {fileID: 7964407901703884334, guid: 93691b83690c9304baef3fc28c8e515b, type: 3}
 --- !u!114 &1085911772151528908
 MonoBehaviour:
   m_ObjectHideFlags: 0

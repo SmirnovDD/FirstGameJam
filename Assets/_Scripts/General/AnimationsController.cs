@@ -9,6 +9,7 @@ namespace _Scripts.General
         private static readonly int Shoot = Animator.StringToHash("Shoot");
         private static readonly int Run = Animator.StringToHash("Run");
         private static readonly int Hit = Animator.StringToHash("Hit");
+        private static readonly int Die = Animator.StringToHash("Die");
 
         private void Awake()
         {
@@ -38,6 +39,11 @@ namespace _Scripts.General
         public void PlayHitAnimation()
         {
             _animator.SetTrigger(Hit);
+        }
+        
+        public void PlayDeathAnimation()
+        {
+            _animator.SetTrigger(Die);
         }
     }
 }
