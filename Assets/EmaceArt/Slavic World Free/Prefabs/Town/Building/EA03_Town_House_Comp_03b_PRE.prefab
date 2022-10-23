@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7175082661222824819
 Transform:
@@ -97,7 +97,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8123268019922171358
 Transform:
@@ -161,7 +161,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8364273237921780969
 Transform:
@@ -235,9 +235,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1245216351824808, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345563606023602, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512916807300784, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623074636817238, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762946374203884, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884342824910320, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958250414580688, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1988858900517164, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
       propertyPath: m_Name
       value: EA03_Village_HouseModule_Porch_01d_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988858900517164, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999829820392938, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4122363245942432, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
       propertyPath: m_RootOrder
@@ -305,9 +341,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -379,9 +435,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -453,6 +529,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 590566445, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2740093626515919124, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -529,9 +609,25 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.06
       objectReference: {fileID: 0}
+    - target: {fileID: 2740093626516016432, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740093626516016434, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2740093626516016436, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Foundation_02b_PRE (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740093626516016436, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740093626516016438, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6ae1b2523142a94797ab44e46647cdb, type: 3}
@@ -547,9 +643,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 262051186418984901, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 947358307938401211, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282224281764497177, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6305310825078449891, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
       propertyPath: m_Name
       value: EA03_Village_Hut_Wall_Front_04f_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305310825078449891, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6686480288296057945, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
       propertyPath: m_RootOrder
@@ -595,6 +707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8175222857105724410, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee5307fbcd234d444a84d0a65bdbf275, type: 3}
 --- !u!4 &9037014082585392339 stripped
@@ -609,9 +725,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -683,9 +819,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1093832418852438, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Front_04b_PRE (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618198561220064, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755176665887032, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823744241363982, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866974006308000, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919102190650702, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557996578629250, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_RootOrder
@@ -753,9 +917,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -827,9 +1011,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1093832418852438, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Front_04b_PRE (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618198561220064, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755176665887032, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823744241363982, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866974006308000, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919102190650702, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557996578629250, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_RootOrder
@@ -897,9 +1109,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -971,9 +1203,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1045,9 +1297,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1119,9 +1391,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1193,9 +1485,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1267,9 +1579,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1341,9 +1673,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1121778313060026, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230919490802384, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294512941235686, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307721299243072, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513788340444096, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698336366333850, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802398658148652, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1928500909619296, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1946315513998196, guid: 911baa52170780442a318441d874e58a, type: 3}
       propertyPath: m_Name
       value: EA03_Environment_Road_Cobble_Staris_01b_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946315513998196, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4121107872514998, guid: 911baa52170780442a318441d874e58a, type: 3}
       propertyPath: m_RootOrder
@@ -1403,9 +1771,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1093832418852438, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Front_04b_PRE (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618198561220064, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755176665887032, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823744241363982, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866974006308000, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919102190650702, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557996578629250, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_RootOrder
@@ -1473,9 +1869,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1547,9 +1963,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1093832418852438, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Front_04b_PRE (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618198561220064, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755176665887032, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823744241363982, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866974006308000, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919102190650702, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557996578629250, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_RootOrder
@@ -1617,9 +2061,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1093832418852438, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Front_04b_PRE (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096032113876570, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618198561220064, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755176665887032, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823744241363982, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866974006308000, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919102190650702, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557996578629250, guid: 7a671999f01e8394f8224141a5e39ba3, type: 3}
       propertyPath: m_RootOrder
@@ -1687,6 +2159,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1920853292396947934, guid: cccee14c4e102864795ee437bc2c7a32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277854025028790884, guid: cccee14c4e102864795ee437bc2c7a32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5061502462749560294, guid: cccee14c4e102864795ee437bc2c7a32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6645046385335211572, guid: cccee14c4e102864795ee437bc2c7a32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7468389179846953534, guid: cccee14c4e102864795ee437bc2c7a32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0690659
@@ -1759,6 +2247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA03_Village_Hut_Roof_Half_01a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9170944396166639728, guid: cccee14c4e102864795ee437bc2c7a32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccee14c4e102864795ee437bc2c7a32, type: 3}
 --- !u!4 &1810338880832868610 stripped
@@ -1773,9 +2265,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1847,9 +2359,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -1921,9 +2453,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1262634657070124, guid: 1899adc2d5fc5e54f8b05c94d0c36f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1310882874585564, guid: 1899adc2d5fc5e54f8b05c94d0c36f17, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Front_04h_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310882874585564, guid: 1899adc2d5fc5e54f8b05c94d0c36f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326244087739260, guid: 1899adc2d5fc5e54f8b05c94d0c36f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698895098218378, guid: 1899adc2d5fc5e54f8b05c94d0c36f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856378566530930, guid: 1899adc2d5fc5e54f8b05c94d0c36f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4726835924261770, guid: 1899adc2d5fc5e54f8b05c94d0c36f17, type: 3}
       propertyPath: m_RootOrder
@@ -1983,9 +2535,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1121778313060026, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230919490802384, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294512941235686, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307721299243072, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513788340444096, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698336366333850, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802398658148652, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1928500909619296, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1946315513998196, guid: 911baa52170780442a318441d874e58a, type: 3}
       propertyPath: m_Name
       value: EA03_Environment_Road_Cobble_Staris_01b_PRE (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946315513998196, guid: 911baa52170780442a318441d874e58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4121107872514998, guid: 911baa52170780442a318441d874e58a, type: 3}
       propertyPath: m_RootOrder
@@ -2045,9 +2633,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder
@@ -2119,9 +2727,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1245216351824808, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345563606023602, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512916807300784, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623074636817238, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762946374203884, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884342824910320, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958250414580688, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1988858900517164, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
       propertyPath: m_Name
       value: EA03_Village_HouseModule_Porch_01d_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988858900517164, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999829820392938, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4122363245942432, guid: 377d225ecc6d4674ebd0a7deb503b5c7, type: 3}
       propertyPath: m_RootOrder
@@ -2236,9 +2880,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7027966652702981155, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028191354217134295, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028320748855761035, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028420252068361257, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028518424212572493, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028575037398316743, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7028673947707165857, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Front_04e_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028673947707165857, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029918019659525417, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d6e0dd5df7f29449ba81ce4de2c49a1, type: 3}
@@ -2254,9 +2930,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8123268019922171358}
     m_Modifications:
+    - target: {fileID: 1055685061179790, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090826954971692, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_Name
       value: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174075278887894, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343566121730214, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764569303448124, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4777190801663168, guid: c85ae87bbf201b940bcba31b404d61e0, type: 3}
       propertyPath: m_RootOrder

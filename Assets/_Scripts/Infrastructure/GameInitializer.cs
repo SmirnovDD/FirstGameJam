@@ -1,4 +1,5 @@
 using _Scripts.AI;
+using _Scripts.General;
 using Cinemachine;
 using UnityEngine;
 
@@ -10,13 +11,13 @@ namespace _Scripts.Infrastructure
         [SerializeField] private Player.Player _playerPrefab;
         [SerializeField] private CinemachineVirtualCamera _cinemachineVirtualCamera;
         [SerializeField] private Transform _playerSpawnPoint;
-        [SerializeField] private EnemySpawner _enemySpawner;
+        [SerializeField] private GameEventTrigger[] _eventTriggers;
         
         void Start()
         {
             var player = SpawnPlayer();
             SpawnPlayerCamera(player);
-            SpawnEnemies(player);
+            InitEventTriggers(player);
             InitUI(player);
         }
 
@@ -25,10 +26,12 @@ namespace _Scripts.Infrastructure
             _uiRoot.Init(player);
         }
 
-        private void SpawnEnemies(Player.Player player)
+        private void InitEventTriggers(Player.Player player)
         {
-            if (_enemySpawner != null)
-                _enemySpawner.Init(player);
+            foreach (var eventTrigger in _eventTriggers)
+            {
+                eventTrigger.Init(player);
+            }
         }
 
         private void SpawnPlayerCamera(Player.Player player)

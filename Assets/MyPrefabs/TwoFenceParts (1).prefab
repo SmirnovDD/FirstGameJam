@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &420547055036321840
 Transform:
@@ -40,9 +40,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 420547055036321840}
     m_Modifications:
+    - target: {fileID: 1003430248940562, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585108909104536, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628933574814074, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1828137249404456, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
       propertyPath: m_Name
       value: EA03_Fence_Plank_02a_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828137249404456, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4865181551282092, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
       propertyPath: m_RootOrder
@@ -106,9 +122,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 420547055036321840}
     m_Modifications:
+    - target: {fileID: 1003430248940562, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585108909104536, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628933574814074, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1828137249404456, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
       propertyPath: m_Name
       value: EA03_Fence_Plank_02a_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828137249404456, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4865181551282092, guid: eb736a11e2ad7564eb316234731e2539, type: 3}
       propertyPath: m_RootOrder

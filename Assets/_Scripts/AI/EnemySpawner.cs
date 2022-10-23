@@ -5,14 +5,16 @@ namespace _Scripts.AI
 {
     public class EnemySpawner : MonoBehaviour
     {
-        [SerializeField] private List<EnemySpawnPoint> _spawnPoints = new List<EnemySpawnPoint>();
+        [SerializeField] private Transform _spawnPointsRoot;
         [SerializeField] private bool _active;
+        private EnemySpawnPoint[] _spawnPoints;
         
         public void Init(Player.Player player)
         {
             if (!_active)
                 return;
-            
+
+            _spawnPoints = _spawnPointsRoot.GetComponentsInChildren<EnemySpawnPoint>();
             foreach (var spawnPoint in _spawnPoints)
             {
                 var spawnPointTransform = spawnPoint.transform;
