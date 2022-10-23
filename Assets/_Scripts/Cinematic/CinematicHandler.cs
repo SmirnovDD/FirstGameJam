@@ -11,9 +11,17 @@ public class CinematicHandler : MonoBehaviour
 
     [Header("DialogueLines")]
     [SerializeField] List<string> _texts = new List<string>();
-    void Start()
+    [SerializeField] List<AudioClip> _vOvers = new List<AudioClip>();
+    [SerializeField] AudioSource _soundEmitter;
+     void Start()
     {
         _dialogueIndex = 0;
+    }
+
+    private void PlayVoiceOver()
+    {
+        _soundEmitter.clip = _vOvers[_dialogueIndex];
+        _soundEmitter.Play();
     }
 
     public void EnableSubtitles()
@@ -36,6 +44,7 @@ public class CinematicHandler : MonoBehaviour
         }
 
         _subtitlesTxt.text = _texts[_dialogueIndex];
+        PlayVoiceOver();
         _dialogueIndex++;
     }
 }
