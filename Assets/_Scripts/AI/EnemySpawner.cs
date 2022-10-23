@@ -1,4 +1,7 @@
+using System;
 using System.Collections.Generic;
+using _Scripts.General;
+using _Scripts.Infrastructure;
 using UnityEngine;
 
 namespace _Scripts.AI
@@ -7,6 +10,8 @@ namespace _Scripts.AI
     {
         [SerializeField] private Transform _spawnPointsRoot;
         [SerializeField] private bool _active;
+        [SerializeField] private UIRoot _uiRoot;
+        
         private EnemySpawnPoint[] _spawnPoints;
         
         public void Init(Player.Player player)
@@ -23,6 +28,10 @@ namespace _Scripts.AI
                 var destinationSetter = enemy.GetComponent<DestinationSetter>();
                 if (destinationSetter != null)
                     destinationSetter.Init(player.transform);
+                if (_uiRoot != null)
+                {
+                    _uiRoot.SetBossHealth(enemy.GetComponent<Health>());
+                }
             }
         }
     }

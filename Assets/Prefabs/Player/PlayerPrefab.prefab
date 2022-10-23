@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 8643258339216706101}
-  _rotateSpeed: 20
+  _rotateSpeed: 60
   _rotator: {fileID: 2863785704090862594}
 --- !u!1 &3625061469247531476
 GameObject:
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 75
-  _rechargeAttackTime: 0.5
+  _rechargeAttackTime: 1.1
   _inputs: {fileID: 0}
   _attackSphereCenter: {x: 1, y: 1.5}
   _attackSphereRadius: 1

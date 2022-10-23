@@ -5090,6 +5090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: {fileID: 8362426054282719741}
+  _spawnFinalBoss: 1
 --- !u!114 &8362426054282719741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5102,7 +5103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40e10417cf0952648a45017218ac8cd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initial: 200
+  _initial: 300
 --- !u!114 &5088272942224274741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5191,8 +5192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52260a89fe964012b3028b7c10d2caf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackRangeSquared: 3.9
-  _damage: 20
+  _attackRangeSquared: 8.9
+  _damage: 35
   _rechargeAttackTime: 2
   _attackSphereCenter: {x: 1, y: 1.5}
   _attackSphereRadius: 2

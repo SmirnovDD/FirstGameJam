@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace _Scripts.General
 {
@@ -10,6 +12,11 @@ namespace _Scripts.General
         {
             Current += _healPerSecond * Time.deltaTime;
             Current = Mathf.Min(Current, _initial);
+        }
+
+        private void OnDestroy()
+        {
+            SceneManager.LoadScene(1);
         }
     }
 }

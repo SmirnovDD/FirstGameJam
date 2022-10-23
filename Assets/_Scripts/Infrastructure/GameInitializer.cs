@@ -12,13 +12,19 @@ namespace _Scripts.Infrastructure
         [SerializeField] private CinemachineVirtualCamera _cinemachineVirtualCamera;
         [SerializeField] private Transform _playerSpawnPoint;
         [SerializeField] private GameEventTrigger[] _eventTriggers;
-        
+        [SerializeField] private OnBossDeath _onBossDeath;
         void Start()
         {
             var player = SpawnPlayer();
             SpawnPlayerCamera(player);
             InitEventTriggers(player);
             InitUI(player);
+            OnBossDeathInit(player);
+        }
+
+        private void OnBossDeathInit(Player.Player player)
+        {
+            _onBossDeath.Init(player);
         }
 
         private void InitUI(Player.Player player)
