@@ -8,6 +8,7 @@ namespace _Scripts.Infrastructure
     {
         [SerializeField] private Image _playerHealthBar;
         [SerializeField] private Image _bossHealthBar;
+        
         private PlayerHealth _playerHealth;
         private bool _initialized;
         private Health _bossHealth;

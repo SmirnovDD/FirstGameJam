@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CinematicHandler : MonoBehaviour
 {
@@ -46,5 +47,12 @@ public class CinematicHandler : MonoBehaviour
         _subtitlesTxt.text = _texts[_dialogueIndex];
         PlayVoiceOver();
         _dialogueIndex++;
+        if (_dialogueIndex == _texts.Count)
+            Invoke(nameof(LoadMain), 4f);
+    }
+
+    private void LoadMain()
+    {
+        SceneManager.LoadScene(1);
     }
 }
