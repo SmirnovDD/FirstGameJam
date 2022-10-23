@@ -15,6 +15,11 @@ namespace _Scripts.Ammo
                 damagable.Damage(damage);
             }
 
+            OnHit(other);
+        }
+
+        protected virtual void OnHit(Collider other)
+        {
             transform.parent = other.transform;
             Destroy(this);
             if (_ballisticMotion)

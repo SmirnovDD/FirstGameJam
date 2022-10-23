@@ -46,10 +46,11 @@ namespace _Scripts.AI
             
             _animationsController.PlayShootAnimation();
             
+            var mouthPosition = _mouth.position;
+            var playerPosition = _playerTransform.position + Vector3.up * 1.5f;
+            
             if (!_secondAttack)
             {
-                var mouthPosition = _mouth.position;
-                var playerPosition = _playerTransform.position;
                 Instantiate(_fireballStraitPrefab, mouthPosition, Quaternion.LookRotation(playerPosition - mouthPosition));
                 yield return _shotsDelay;
                 Instantiate(_fireballStraitPrefab, mouthPosition, Quaternion.LookRotation(playerPosition - mouthPosition));
@@ -62,8 +63,6 @@ namespace _Scripts.AI
             }
             else
             {
-                var mouthPosition = _mouth.position;
-                var playerPosition = _playerTransform.position;
                 var position = _transform.position;
                 Instantiate(_fireballHomingPrefab, mouthPosition, Quaternion.LookRotation(playerPosition - position));
                 yield return _shotsDelaySecondAttack;
